@@ -1,0 +1,15 @@
+{
+  "name": "issue-commitlint",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "commitlint --edit"
+  },
+  "devDependencies": {
+    "@acdh-oeaw/commitlint-config": "^1.0.0",
+    "@commitlint/cli": "^19.0.3"
+  },
+  "commitlint": {
+    "extends": "@acdh-oeaw/commitlint-config"
+  }
+}
